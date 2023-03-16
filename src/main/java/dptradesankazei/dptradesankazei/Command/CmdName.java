@@ -2,9 +2,9 @@ package dptradesankazei.dptradesankazei.Command;
 
 public enum CmdName {
 
-    EnableTrader("DpEnableTrader"),
-    DisableTrader("DpDisableTrader"),
-    Initialize("DpInitialize"),
+    EnableTrader("DpEnableTraderPlugin"),
+    DisableTrader("DpDisableTraderPlugin"),
+    Initialize("DpInitializeTrader"),
     Register("DpRegister"),
     SetPrise("DpSetPrise"),
     Buy("Buy");

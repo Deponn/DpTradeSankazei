@@ -6,15 +6,15 @@ authors: [ Deponn ]
 description: We can buy sankazei with this Plugin. It needs DpMarket.
 
 commands: #自作プラグインのコマンドを宣言
-  DpEnableTrader:
+  DpEnableTraderPlugin:
     description: プラグインを有効にする
-    usage: /DpEnableTrader
+    usage: /DpEnableTraderPlugin
     permission: tr
-  DpDisableTrader:
+  DpDisableTraderPlugin:
     description: プラグインを無効にする
-    usage: /DpEnableTrader
+    usage: /DpEnableTraderPlugin
     permission: tr
-  DpInitialize:
+  DpInitializeTrader:
     description: 初期化
     usage: /DpInitialize
     permission: tr
