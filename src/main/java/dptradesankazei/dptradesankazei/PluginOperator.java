@@ -41,9 +41,11 @@ public class PluginOperator {
             String teamName = playersData.getTeam(buyer);
             String command1 = "DpGiveMoney -team " + teamName + " -amount " + (-Prise);
             String command2 = "team join " + teamName + " " + merchandise;
+            String command3 = "gamemode survival " + merchandise;
             if(player != null) {
                 Bukkit.dispatchCommand(player, command1);
                 Bukkit.dispatchCommand(player, command2);
+                Bukkit.dispatchCommand(player, command3);
             }
             return merchandise + "を" + Prise + "円で購入しました。";
         }else {
