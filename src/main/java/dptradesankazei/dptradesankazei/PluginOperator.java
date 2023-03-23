@@ -4,6 +4,8 @@ import dptradesankazei.dptradesankazei.PropertiesAndConstant.Const;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 
+import java.util.Objects;
+
 public class PluginOperator {
 
     private int Prise;
@@ -49,6 +51,7 @@ public class PluginOperator {
                 Bukkit.dispatchCommand(player, command3);
                 Bukkit.dispatchCommand(player, command4);
             }
+            Objects.requireNonNull(player).chat(buyer + "が" + merchandise + "を" + Prise + "円で購入しました。");
             return merchandise + "を" + Prise + "円で購入しました。";
         }else {
             return "このコマンドを使えるのはリーダーに指定されたプレイヤーのみです";
